@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.theme-border {
+  border-color: blue;
+}
+.theme-background {
+  background-color: #04c584;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.btn {
+  border-radius:3px;
+  width:150px;
+  height:30px;
+  border:0;
+
+}
+
+.logo-large {
+  background-image:url(img/logo.png);
+  width: 250px;
+  height: 25px;
+}
+
+.logo-small {
+  background-image:url(img/logo-small.png);
+  width: 100px;
+  height:15px;
+}
+.save-btn, .all-close-btn{
+  cursor:pointer;
+  color:#fff;
+  background-color:#04c584;
+}
+.canvas {
+  background-color: #eee;
+
+}
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+}
+.color-btn[data-color="black"] {
+  background-color: black;
+}
+.color-btn[data-color="red"] {
+  background-color: red;
+}
+.color-btn[data-color="green"] {
+  background-color: green;
+}
+.color-btn[data-color="blue"] {
+  background-color: blue;
+}
+.color-btn[data-color="yellow"] {
+  background-color: yellow;
+}
+.color-btn[data-color="purple"] {
+  background-color: purple;
+}
+.erase-btn {
+  width: 40px;
+  height: 40px;
+  background: url("../image/erase.svg");
+}
+.btn {
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.save-btn {
+  background-color: #04c584;
+}
+.btn:hover {
+  background-color: #10df99;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.common-width {
+  width: 700px;
+  margin: 0;
+}
