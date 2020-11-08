@@ -63,17 +63,6 @@ table {
 
 }
 
-.logo-large {
-  background-image:url(img/logo.png);
-  width: 250px;
-  height: 25px;
-}
-
-.logo-small {
-  background-image:url(img/logo-small.png);
-  width: 100px;
-  height:15px;
-}
 .save-btn, .all-close-btn{
   cursor:pointer;
   color:#fff;
@@ -88,6 +77,13 @@ table {
   height: 30px;
   border: 0;
   border-radius: 50%;
+}
+.line-btn{
+  width:30px;
+  height:5px;
+  border:0;
+  padding-top:-20px;
+  background-color:#000;
 }
 .color-btn[data-color="black"] {
   background-color: black;
@@ -110,7 +106,7 @@ table {
 .erase-btn {
   width: 40px;
   height: 40px;
-  background: url("../image/erase.svg");
+  background: url("./image/erase.svg");
 }
 .btn {
   border-radius: 3px;

@@ -15,10 +15,11 @@
   }
   const moveHandler = (e) =>{
       if(!drawingMode)return;
-      const fillSize = document.querySelector('#jsRange').value;
-      context.beginPath();
-      context.arc(e.layerX,e.layerY,fillSize,0,Math.PI*2, false);
-      context.fill();
+        const fillSize = document.querySelector('#jsRange').value;
+        context.beginPath();
+        context.arc(e.layerX,e.layerY,fillSize,0,Math.PI*2, false);
+        context.fill();
+  
   }
   const setColor = (e) =>{
      colorVal = e.target.getAttribute('data-color');
@@ -27,7 +28,6 @@
      if(!e.target.classList.contains("erase-btn")){
         e.target.setAttribute('data-color',"purple");
      }
-
   }
   const initColor = () =>{
       const colorButtonAll = document.querySelectorAll('.color-btn');
@@ -48,7 +48,6 @@
       aTag.href = url;
       aTag.click();
   }
-  
   canvas.addEventListener('mouseup', upHandler);
   canvas.addEventListener('mousemove', moveHandler);
   canvas.addEventListener('mousedown', downHandler);
